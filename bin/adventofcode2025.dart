@@ -1,5 +1,6 @@
 import 'package:args/args.dart';
 import 'day1.dart' as d1;
+import 'day2.dart' as d2;
 
 const String version = '0.0.1';
 
@@ -27,6 +28,7 @@ void printUsage(ArgParser argParser) {
 
 void main(List<String> arguments) {
   d1.run();
+  d2.run();
   final ArgParser argParser = buildParser();
   try {
     final ArgResults results = argParser.parse(arguments);
