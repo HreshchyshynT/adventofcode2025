@@ -1,6 +1,6 @@
 import 'dart:convert';
 
-void run() {
+void day1() {
   final lines = LineSplitter().convert(_input);
   int result1 = 0;
   int result2 = 0;

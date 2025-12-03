@@ -1,4 +1,4 @@
-void run() {
+void day2() {
   final input = _input
       .split(",")
       .map((s) => s.split("-"))
