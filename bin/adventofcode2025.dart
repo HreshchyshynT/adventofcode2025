@@ -2,6 +2,7 @@ import 'package:args/args.dart';
 import 'day1.dart';
 import 'day2.dart';
 import 'day3.dart';
+import 'day4.dart';
 
 const String version = '0.0.1';
 
@@ -31,6 +32,7 @@ void main(List<String> arguments) {
   day1();
   day2();
   day3();
+  day4();
   final ArgParser argParser = buildParser();
   try {
     final ArgResults results = argParser.parse(arguments);
