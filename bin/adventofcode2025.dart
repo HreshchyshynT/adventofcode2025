@@ -4,6 +4,7 @@ import 'day2.dart';
 import 'day3.dart';
 import 'day4.dart';
 import 'day5.dart';
+import 'day6.dart';
 
 const String version = '0.0.1';
 
@@ -35,6 +36,7 @@ void main(List<String> arguments) {
   day3();
   day4();
   day5();
+  day6();
   final ArgParser argParser = buildParser();
   try {
     final ArgResults results = argParser.parse(arguments);
